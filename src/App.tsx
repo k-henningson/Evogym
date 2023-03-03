@@ -1,7 +1,9 @@
-import { useState } from "react";
+
 
 function App() {
-  return <div className="app">app</div>;
+  return <div className="app bg-gray-20">
+
+  </div>;
 }
 
 export default App;

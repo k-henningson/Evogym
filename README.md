@@ -45,11 +45,11 @@ Check out the [deployed]() page! Hosted on Cloudflare Pages.
 1. Clone the repo (HTTPS or SSH)
 
 ```sh
-
+https://github.com/k-henningson/Evogym.git
 ```
 
 ```sh
-
+git@github.com:k-henningson/Evogym.git
 ```
 
 2. Install dependencies

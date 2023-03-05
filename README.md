@@ -63,3 +63,5 @@ npm install
 ```sh
 npm run dev
 ```
+
+4. Run local host link from the terminal in your browser

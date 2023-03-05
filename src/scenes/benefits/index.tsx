@@ -1,3 +1,4 @@
+import ActionButton from "@/shared/ActionButton";
 import HText from "@/shared/HText";
 import { BenefitType, SelectedPage } from "@/shared/types";
 import {
@@ -6,6 +7,7 @@ import {
   AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
+import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png"
 import Benefit from "./Benefit";
 
 const benefits: Array<BenefitType> = [
@@ -80,6 +82,41 @@ const Benefits = ({ setSelectedPage }: Props) => {
             />
           ))}
         </motion.div>
+        {/* GRAPHICS AND DESCRIPTION */}
+        <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
+          {/* GRAPHIC */}
+          <img 
+          className="mx-auto"
+          alt="benefits-page-graphic"
+          src={BenefitsPageGraphic}/>
+          {/* DESCRIPTION */}
+          <div>
+            {/* TITLE */}
+            <div className="relative">
+              <div className="before:content-abstractwaves before:absolute before:-top-20 before:-left-20 before:z-[1]">
+                <div>
+                  <HText>
+                    MILLIONS OF HAPPY MEMBERS GETTING{" "}
+                    <span className="text-primary-500">FIT.</span>
+                  </HText>
+                </div>
+              </div>
+            </div>
+            {/* DESCRIPTION */}
+            <div>
+              <p className="my-5">Update text later</p>
+              <p className="mb-5">Update text later</p>
+            </div>
+            {/* BUTTON */}
+            <div className="relative mt-16">
+              <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+                <ActionButton setSelectedPage={setSelectedPage}>
+                  Join Now
+                </ActionButton>
+              </div>
+            </div>
+          </div>
+        </div>
       </motion.div>
     </section>
   );

@@ -37,12 +37,32 @@ const Home = ({ setSelectedPage }: Props) => {
             <ActionButton setSelectedPage={setSelectedPage}>
               Join Now
             </ActionButton>
-            <AnchorLink className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"></AnchorLink>
+            <AnchorLink
+              className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
+              onClick={() => setSelectedPage(SelectedPage.ContactUs)}
+              href={`#${SelectedPage.ContactUs}`}
+            >
+              <p>Learn More</p>
+            </AnchorLink>
           </div>
         </div>
         {/* IMAGE */}
-        <div></div>
+        <div>
+          <img alt="home-pageGraphic" src={HomePageGraphic} />
+        </div>
       </div>
+      {/* SPONSORS */}
+      {isAboveMediumScreens && (
+        <div>
+          <div>
+            <div>
+              <img alt="redbull-sponsor" src={SponsorRedBull} />
+              <img alt="forbes-sponsor" src={SponsorForbes} />
+              <img alt="fortune-sponsor" src={SponsorFortune} />
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

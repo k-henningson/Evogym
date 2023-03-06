@@ -14,6 +14,12 @@ Check out the [deployed]() page! Hosted on Cloudflare Pages.
 <br></br>
 !["Contact Us Page"](https://raw.githubusercontent.com/k-henningson/Evogym/e1f3cbf0c503f08ca17f899ea0995edafd65a60a/docs/ContactUsPage.png)
 <br></br>
+!["Home Page Mobile"]()
+<br></br>
+!["Benefits Mobile"]()
+<br></br>
+!["Footer Mobile"]()
+<br></br>
 ### Tech Stack
 
 - TypeScript

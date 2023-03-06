@@ -2,7 +2,7 @@
 
 Evogym is a front-end fitness application that offers a diverse range of classes to help users achieve their fitness goals. It provides a user-friendly platform where individuals can easily browse through classes and submit a contact us form to get started on their fitness journey.
 
-Check out the [deployed]() page! Hosted on Cloudflare Pages.
+Check out the [deployed](https://bdaa9d69.evogym-59g.pages.dev/) page! Hosted on Cloudflare Pages.
 <br></br>
 
 ## Final Product

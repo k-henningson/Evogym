@@ -2,35 +2,18 @@
 
 EVOGYM is a...
 
-Check out the [deployed]() page! Hosted on Cloudflare Pages. 
+Check out the [deployed]() page! Hosted on Cloudflare Pages.
 <br></br>
 
 ## Final Product
-
-<table>
-  <tr>
-    <td><img src=""/></td>
-    <td><img src=""/></td>
-  </tr>
-  <tr>
-    <td><img src=""/></td>
-    <td><img src=""/></td>
-  </tr>
-  <tr>
-    <td><img src=""/></td>
-    <td><img src=""/></td>
-  </tr>
-  <tr>
-    <td><img src=""/></td>
-    <td><img src=""/></td>
-  </tr>
-  <tr>
-    <td><img src=""/></td>
-    <td><img src=""/></td>
-  </tr>
-</table>
+!["Home Page"]()
 <br></br>
-
+!["About Us Page"]()
+<br></br>
+!["Classes Page"]()
+<br></br>
+!["Contact Us Page"]()
+<br></br>
 ### Tech Stack
 
 - TypeScript
@@ -38,7 +21,7 @@ Check out the [deployed]() page! Hosted on Cloudflare Pages.
 - Vite
 - Tailwind
 - Framer Motion
-<br></br>
+  <br></br>
 
 ### Setup
 
